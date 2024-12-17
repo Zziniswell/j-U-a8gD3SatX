@@ -1,0 +1,25 @@
+! Title: mylist-temp
+! Version: 1.294+0
+! Description: yas
+
+
+
+! quick fixes
+
+
+
+! experimental
+! ##[id^='dimg']:upward(7):has-text(test)
+
+
+
+! passive
+@@||arca.live^$extension="Auto Simya"
+@@||dcinside.com$cookie=_ga
+m.fmkorea.com##.level:style(opacity:0.2!important;)
+! fmkorea.com#%#window.addEventListener('load',function(){var e=0,t=setInterval(function(){var n=document.querySelector('.fa-ellipsis-h.fa');n?(clearInterval(t),n.click(),setTimeout(function(){var t=document.querySelector('.fa-eraser.fa');t&&t.click()},100)):5===++e&&clearInterval(t)},100)});
+
+
+! update regularly
+m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리/)
