@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.294+1
+! Version: 1.294+2
 ! Description: yas
 
 
@@ -8,23 +8,22 @@
 google.*,google.com,google.co.kr##[href*='tiktok.com']:upward(4):has(svg)
 $removeparam=/^(srcSns|spreadType|bizType|social_params|tt|shareId|businessType|platform|afSmartRedirect)=/,domain=aliexpress.com
 @@$removeparam,domain=click.linkprice.com
-namu.wiki,~en.namu.wiki,~board.namu.wiki##div[class]:has(> :only-child):has([href] [src$=".png"]):not(*:has([id])):not(*:has(p)):not(*:has(th)):not(*:has(strong))
+namu.wiki,~en.namu.wiki,~board.namu.wiki##div[class]:has(> :only-child):has([href] [src$='.png']):not(*:has([id])):not(*:has(p)):not(*:has(th)):not(*:has(strong))
 hentaihaven.xxx##[class^='vrav_a_']
 redtube.net##[id*='_adblock_']
 resizepixel.com##div[style]:has-text(광고)
+||redtube.net/jlog/log
 
 
 
 ! quick fixes
 tiktok.com#@#.matrix-smart-wrapper
-namu.wiki,~en.namu.wiki,~board.namu.wiki#@#div[class]:has(> :only-child):has([src$=".png"]):not(*:has([id])):not(*:has(p)):not(*:has(th))
+namu.wiki,~en.namu.wiki,~board.namu.wiki#@#div[class]:has(> :only-child):has([src$='.png']):not(*:has([id])):not(*:has(p)):not(*:has(th))
 
 
 
 ! experimental
 ! ##[id^='dimg']:upward(7):has-text(test)
-#%#//scriptlet('remove-class','blur|hide|hided|nocopy|nodrag|no-drag|pointer-events-none')
-#%#//scriptlet('remove-attr','oncontextmenu')
 
 
 
