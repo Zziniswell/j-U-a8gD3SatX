@@ -1,21 +1,21 @@
 ! Title: mylist-temp
-! Version: 1.295+0
+! Version: 1.295+1
 ! Description: yas
 
 
 
 ! rules
+||tbib.org/gaming
+m.ppomppu.co.kr##.none-border
 
 
 
 ! quick fixes
-11st.co.kr#@#div[class$="-ad"]
 
 
 
 ! experimental
 ! ##[id^='dimg']:upward(7):has-text(test)
-#%#//scriptlet('remove-class','blur|hide|hided|nocopy|nodrag|no-drag|pointer-events-none'')
 $cookie,domain=fmkorea.com|namu.wiki|ppomppu.co.kr
 
 
@@ -30,3 +30,6 @@ m.fmkorea.com##.level:style(opacity:0.2!important;)
 ! update regularly
 m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰/)
 m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리/)
+[$url=m.dcinside.com/board/comic_new*?recommend=1]##.gall-detail-lst > li:not(:has-text(/번역|재업|트위터|단편|화|근황|스포|수준|작가|결말|유출|만신|쿠보/))
+manatoki*.net##.post-list.media:has-text(순정)
+[$url=manatoki*.net]##.post-list.media:has-text(순정)
