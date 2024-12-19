@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.295+1
+! Version: 1.295+2
 ! Description: yas
 
 
@@ -16,8 +16,9 @@ m.ppomppu.co.kr##.none-border
 
 ! experimental
 ! ##[id^='dimg']:upward(7):has-text(test)
-$cookie,domain=fmkorea.com|namu.wiki|ppomppu.co.kr
-
+||namu.wiki^$cookie
+||fmkorea.com^$cookie
+||ppomppu.co.kr^$cookie
 
 
 ! passive
