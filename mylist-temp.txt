@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.295e+1
+! Version: 1.296+2
 ! Description: yas
 
 
@@ -8,10 +8,20 @@ m.dcinside.com###recom_box1:not(*:has(.ntc-line-green))
 hasha.in#%#//scriptlet('set-local-storage-item','scrollmode', 'false')
 musinsa.com#%#//scriptlet('set-cookie', 'closeEncourageApp', '1')
 hitomi.*##.container > div > div:first-child:not(:has([href])):not(:has(h3))
-@@/playlist.m3u8^$doc
+@@/playlist.m3u8
+@@/video.m3u8
 njatv.com,missav.com##ul:has([rel*='sponsored'])
 4kjav.co,sogirl.*,sogirl.so##[target='_blank']:has(img)
 okky.kr##.sm\:bottom-10.transform.max-w-3xl.w-full.mx-auto.z-20.bottom-24.inset-x-0.fixed.group
+[$domain=/^ko.xhamster\d+.com/]##.thumb-list-mobile-item--widget
+[$domain=/^ko.xhamster\d+.com/]##.video-page__layout-ad
+[$domain=/^ko.xhamster\d+.com/]##[class*='no-ts-init']
+[$domain=/^ko.xhamster\d+.com/]##[class*='sp-l-tab']
+[$domain=/^ko.xhamster\d+.com/]##[data-role='bottom-popup-ads']
+[$domain=/^ko.xhamster\d+.com/]##[href*='utm_source']
+[$domain=/^ko.xhamster\d+.com/]##div[class*='cookiesAnnounce-']
+[$domain=/^ko.xhamster\d+.com/]#%#//scriptlet('set-cookie-reload','popSeen','true')
+||trackwilltrk.com^
 
 
 ! quick fixes
