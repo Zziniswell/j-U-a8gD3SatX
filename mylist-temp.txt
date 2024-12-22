@@ -1,59 +1,15 @@
 ! Title: mylist-temp
-! Version: 1.296+3
+! Version: 1.297+0
 ! Description: yas
 
 
 ! rules
-m.dcinside.com###recom_box1:not(*:has(.ntc-line-green))
-hasha.in#%#//scriptlet('set-local-storage-item','scrollmode', 'false')
-musinsa.com#%#//scriptlet('set-cookie', 'closeEncourageApp', '1')
-hitomi.*##.container > div > div:first-child:not(:has([href])):not(:has(h3))
-@@/playlist.m3u8
-@@/video.m3u8
-njatv.com,missav.com##ul:has([rel*='sponsored'])
-4kjav.co,sogirl.*,sogirl.so##[target='_blank']:has(img)
-okky.kr##.sm\:bottom-10.transform.max-w-3xl.w-full.mx-auto.z-20.bottom-24.inset-x-0.fixed.group
-[$domain=/^ko.xhamster\d+.com/]##.thumb-list-mobile-item--widget
-[$domain=/^ko.xhamster\d+.com/]##.video-page__layout-ad
-[$domain=/^ko.xhamster\d+.com/]##[class*='no-ts-init']
-[$domain=/^ko.xhamster\d+.com/]##[class*='sp-l-tab']
-[$domain=/^ko.xhamster\d+.com/]##[data-role='bottom-popup-ads']
-[$domain=/^ko.xhamster\d+.com/]##[href*='utm_source']
-[$domain=/^ko.xhamster\d+.com/]##div[class*='cookiesAnnounce-']
-[$domain=/^ko.xhamster\d+.com/]#%#//scriptlet('set-cookie-reload','popSeen','true')
-xhamster.com##.thumb-list-mobile-item--widget
-xhamster.com##.video-page__layout-ad
-xhamster.com##[class*='no-ts-init']
-xhamster.com##[class*='sp-l-tab']
-xhamster.com##[data-role='bottom-popup-ads']
-xhamster.com##[href*='utm_source']
-xhamster.com##div[class*='cookiesAnnounce-']
-xhamster.com#%#//scriptlet('set-cookie-reload','popSeen','true')
-||trackwilltrk.com^
-@@||googletagmanager.com^$domain=iherb.com
-||collector-pxvtidnbtc.px-cloud.net^
-agoda.com##[data-element-name='white-banner-promo']
-agoda.com##[data-component='deals-static-bar']
-yanolja.com#%#//scriptlet('set-cookie-reload', 'top-smart-banner', 'Y')
-lotteon.com#%#//scriptlet('set-cookie-reload', 'app_install_yn', 'Y')
-lotteon.com##.floatingType.popBanner
-ohou.se##[data-testid="bds-dim"]
-ohou.se#%#//scriptlet('set-cookie-reload', 'ohsTopBannerClosed', 'yes')
-ohou.se#%#//scriptlet('set-cookie-reload', 'ohsAppDownloadPopupClosed', 'yes')
-pixiv.net#%#//scriptlet('set-cookie-reload', 'privacy_policy_agreement', '7')
-m.11st.co.kr#%#//scriptlet('set-cookie-reload', 'web2AppBannerDisable', 'Y')
-m.ssg.com#%#//scriptlet('set-cookie-reload', 'gnb_banner_appdown_ssg', 'N')
-m.ssg.com#%#//scriptlet('set-cookie-reload', 'gnb_banner_event_ssg', 'N')
-m.ssg.com#%#//scriptlet('set-cookie-reload', 'gnb_banner_firstbuy_ssg', 'N')
-@@||ac-p2.namu.la^$stealth
-m.ssg.com##.css-0.wrap > div[style='overflow:hidden;height:auto']
+
 
 
 
 ! quick fixes
-missav.com,okky.kr,investing.com,njavtv.com#@#.fixed
-lotteon.com#@#.contentsWrap > .detailContents
-m.ssg.com#@#.chakra-link:upward(2):has-text(앱캉스)
+
 
 
 
