@@ -1,15 +1,136 @@
 ! Title: mylist-temp
-! Version: 1.297+0
+! Version: 1.297+1
 ! Description: yas
 
 
 ! rules
-
+/mytracer.js$domain=starrykss.tistory.com
+@@||nikke-db.pages.dev^$extension="Disable WebGL API"
+@@||t1.daumcdn.net/adfit/static/kp.js$script,domain=tving.com
+m.dcinside.com#$#.gall-thum-btm-inner > .ginfo2 > li > span {color:rgb(210,100,90)!important;}
+ㅡ
+[$path=/search]www.google.*#%#//scriptlet('trusted-click-element', '#main > div[jsmodel] > div#lb > div[jsname] > div[class] > span > div[role='dialog'] > div[data-hveid] > div[class]:has(> update-location) + div[class] > g-raised-button[jsaction^='click:']')
+google.*,google.com###google-hats-survey
+google.*,google.com###taw:has(> div[id] > div > div > promo-throttler ~ div[jsslot] > div > promo-throttler + div > div > svg[height='70'][width='70'])
+google.*,google.com##div[data-promoid] div[aria-labelledby='task-text'][aria-modal='true']
+google.*,google.com#$#div[data-msau^='https://consent.google.com/minor-save?continue'] { display: none !important; }
+google.*,google.com#iframe[role='presentation'][src'='ogs.google.'][src*='widget/callout']:upward(div[style^='overflow: hidden; position: absolute; top: 0px; width: 370px;'])
+m.youtube.com#$#body[modal-open-body] { position: unset !important; }
+youtube.com##.yt-mealbar-promo-renderer
+youtube.com##.ytd-single-option-survey-option-renderer
+youtube.com##tp-yt-iron-dropdown[class='style-scope ytd-popup-container'][horizontal-align='right']
+ㅡ
+@@||stacksocial.com^$cookie=ajs_anonymous_id
+@@||api2.branch.io^$app=com.spotify.music
+@@||app.adjust.world^$app=com.spotify.music
+||dailymail.co.uk^$cookie=RT
+||dailymail.co.uk^$cookie=latest-article-count
+||dailymail.co.uk^$cookie=mol.ads.visits
+||dailymail.co.uk^$cookie=mol.ads.visitsExpire
+||dailymail.co.uk^$cookie=_pbjs_userid_consent_data
+||dropbox.com^$cookie=dbx_js_analytics_id
+||forbes.com^$cookie=client_id
+||forbes.com^$cookie=fadvuke2etid
+||hankookilbo.com^$cookie=uv_user_id
+||hankookilbo.com^$cookie=hk_ltuid
+||hankookilbo.com^$cookie=hkvstcd
+||hankookilbo.com^$cookie=uv_session_id
+||investing.com^$cookie=adBlockerNewUserDomains
+||nordvpn.com^$cookie=CurrentSession
+||nordvpn.com^$cookie=FirstSession
+||nordvpn.com^$cookie=nextbid
+||pixiv.net^$cookie=first_visit_datetime_pc
+||pixiv.net^$cookie=first_visit_datetime
+||si.com^$cookie=BCSessionID
+||si.com^$cookie=last_visit_bc
+||si.com^$cookie=muid
+||similarweb.com^$cookie=.DEVICETOKEN.SIMILARWEB.COM
+||similarweb.com^$cookie=cb_anonymous_id
+||similarweb.com^$cookie=sgID
+||vimeo.com^$cookie=afUserId
+||vimeo.com^$cookie=_scid_r
+||vimeo.com^$cookie=_scid
+ㅡ
+@@/pdc_s_code.js$domain=adobe.com
+@@/s_code_acdc.js$domain=adobe.com
+@@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
+@@||adobetag.com^*/sitecatalystnew.js$domain=playstation.com
+@@||api-iam.intercom.io/messenger/web/ping$domain=help.openai.com
+@@||api-js.datadome.co/js/$domain=account.samsung.com
+@@||api.sprig.com/sdk/$domain=paypal.com
+@@||apple.com/metrics/ac-analytics/*/scripts/$domain=apple.com
+@@||apple.com/metrics/ac-analytics/*/scripts/$domain=apple.com
+@@||asia-*.inside-graph.com^$domain=lenovo.com
+@@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
+@@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
+@@||cdn.livechatinc.com/tracking.js$domain=bitdefender.com
+@@||cdn.megadata.co.kr/dist/prod/enp_tracker_self_hosted.min.js$domain=hancomdocs.com
+@@||cdn.mxpnl.com/libs/mixpanel*.min.js$domain=grammarly.com
+@@||cdn.optimizely.com/datafiles/*.json/tag.js$domain=nike.com
+@@||cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.*.js$domain=reuters.com
+@@||cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.*.js$domain=reuters.com
+@@||cdn.segment.com/analytics.js/$domain=reuters.com
+@@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=stacksocial.com
+@@||cdn.segment.com/next-integrations/actions/*.js$domain=reuters.com
+@@||cdn.segment.com/v1/projects/*/settings$domain=reuters.com
+@@||clicktale.net/wrb.js$domain=microsoft.com
+@@||cloudflare.com/analytics?$domain=cloudflare.com
+@@||dev.visualwebsiteoptimizer.com^$stylesheet,script,domain=hancomdocs.com
+@@||disqus.com/api/3.0/embed/threadDetails.json
+@@||disqus.com/api/3.0/posts/$document
+@@||global.ketchcdn.com/web/$domain=forbes.com
+@@||google-analytics.com/analytics.js$domain=avast.com|m.investing.com|sammobile.com
+@@||google-analytics.com/gtm/js?id=$domain=avast.com
+@@||google.com/js/gweb/analytics/$domain=google.com
+@@||googleoptimize.com/optimize.js$domain=hancomdocs.com
+@@||googletagmanager.com/gtag/js$domain=javhd.com|hancomdocs.com|avast.com|hancomdocs.com|imgur.com|nordvpn.com|ohmynews.com|seagate.com|shockwave.com|tribuna.com
+@@||googletagmanager.com^$domain=addons.opera.com
+@@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
+@@||js.datadome.co/tags.js$domain=account.samsung.com
+@@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com|brand.naver.com
+@@||lcs.naver.com/m?u=$domain=smartstore.naver.com|brand.naver.com
+@@||logging.apache.org^
+@@||login.coupang.com/resources/*/app-common/js/fingerprint/fingerprint.js$script
+@@||m7ee.adj.st/asset^$domain=google.*
+@@||metrics.bitdefender.com/b/ss/*$domain=bitdefender.com
+@@||metrics.foxnews.com/id^$domain=foxnews.com
+@@||metrics.torproject.org^
+@@||metrics.us.playstation.com/b/ss/
+@@||microsoft.com/click/services/RioTracking2.js
+@@||mixpanel.com/site_media/js/api/mixpanel.js$domain=blog.cloudflare.com
+@@||mmstat.com/eg.js$domain=aliexpress.*
+@@||monetate.net/js/$domain=nike.com
+@@||nike.com/checkout/analytics/js/analyticFunctions.js$domain=nike.com
+@@||ohmynews.com/NWS_Web/Common/JS/TagManager.JS
+@@||pastebin.com/etc/geo.php?
+@@||plausible.io/js/plausible.js$domain=sammobile.com
+@@||play.google.com/log?$domain=meet.google.com|news.google.com
+@@||s.imgur.com/min/px.js$domain=imgur.com
+@@||s1.daumcdn.net/svc/original/U03/cssjs/userAgent$domain=tistory.com
+@@||ssl.google-analytics.com/ga.js$domain=gmail.com
+@@||sundaysky.com/sundaysky.js?$domain=lenovo.com
+@@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
+@@||t1.daumcdn.net/kas/static/kp.js$domain=kgm-actyon.co.kr
+@@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
+@@||tru.am/scripts/custom/reuters.js$domain=reuters.com
+@@||virtualearth.net^*/LoggingService.svc/Log?$script,domain=bing.com
+@@||visa.com^*/vendor/unica.js
+@@||vlscppe.microsoft.com/fp/tags.js$domain=microsoft.com
+@@||whirlpool.com/foresee/foresee-trigger.js
+@@||widgets.outbrain.com^*/comScore/comScore.htm
+@@||wordpress.org/extend/plugins/wp-slimstat/screenshot-$image,~third-party
+@@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
+@@||wp.com/_static/*/gaAddons.js
+ㅡ
+login.coupang.com#%#//scriptlet('prevent-element-src-loading', 'script', 'app-common/js/fingerprint/fingerprint.js')
+samsung.com#%#//scriptlet('prevent-element-src-loading', 'script', 'mpsnare.iesnare.com/snare.js')
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=m.investing.com
+||plausible.io/js/plausible.js$script,redirect=noopjs,domain=sammobile.com
+ㅡ
 
 
 
 ! quick fixes
-
 
 
 
