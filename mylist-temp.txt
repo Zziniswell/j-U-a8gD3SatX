@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.298+1
+! Version: 1.298+0
 ! Description: yas
 
 
@@ -14,14 +14,18 @@ m.gsshop.com###productRecommend
 m.gsshop.com##.md-recommend-wrap
 m.gsshop.com##.descriptionContents > .mgh-sm.pdt-xxs
 gsshop.com##[href^="https://m.gsshop.com/shop/module/moduleShop.gs"] > .ban-img
-dcinside.com##tr.ub-content:has-text(설문):has-text(운영자)
+gall.dcinside.com##tr.ub-content:has-text(설문):has-text(운영자)
+||lklfwu-cdn-settings.appsflyersdk.com^
+||samqaicongen.com^
+@@$stealth=1p-cookie,domain=hasha.in
+||dcinside.com/_js/jquery/jquery.iframetracker.js
 
 
 
 ! quick fixes
 biz.chosun.com#@##artwrapper
 ||www.baidu.com^$app=com.app.aiimglarger,badfilter
-@@||www.baidu.com^$app=com.app.aiimglarger,badfilter
+hasha.in#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
 
 
 
@@ -30,6 +34,9 @@ biz.chosun.com#@##artwrapper
 ||namu.wiki^$cookie
 ||fmkorea.com^$cookie
 ||ppomppu.co.kr^$cookie
+@@$generichide,domain=11st.co.kr|namu.wiki|t.hi098123.com,badfilter
+@@||11st.co.kr^$generichide
+@@||namu.wiki^$generichide
 
 
 
@@ -43,7 +50,7 @@ m.fmkorea.com##.level:style(opacity:0.2!important;)
 
 
 ! update regularly
-hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu/)
+hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
 m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무/)
 m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu/)
 [$url=m.dcinside.com/board/comic_new*?recommend=1]##.gall-detail-lst > li:not(:has-text(/번역|재업|트위터|단편|화|근황|스포|수준|작가|결말|유출|만신|쿠보|엔딩/))
