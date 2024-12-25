@@ -1,14 +1,27 @@
 ! Title: mylist-temp
-! Version: 1.298+0
+! Version: 1.298+1
 ! Description: yas
 
 
 
 ! rules
+||wts-log.tossinvest.com^
+||scorecardresearch.com^
+news.zum.com###reward-root
+m.news.zum.com##.da_banner
+||bottom.campaign.aliexpress.com^
+m.gsshop.com###productRecommend
+m.gsshop.com##.md-recommend-wrap
+m.gsshop.com##.descriptionContents > .mgh-sm.pdt-xxs
+gsshop.com##[href^="https://m.gsshop.com/shop/module/moduleShop.gs"] > .ban-img
+dcinside.com##tr.ub-content:has-text(설문):has-text(운영자)
 
 
 
 ! quick fixes
+biz.chosun.com#@##artwrapper
+||www.baidu.com^$app=com.app.aiimglarger,badfilter
+@@||www.baidu.com^$app=com.app.aiimglarger,badfilter
 
 
 
@@ -23,6 +36,7 @@
 ! passive
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
+! m.dcinside.com#%#//scriptlet('set-local-storage-item','nonmember_pw', '1234')
 m.fmkorea.com##.level:style(opacity:0.2!important;)
 ! fmkorea.com#%#window.addEventListener('load',function(){var e=0,t=setInterval(function(){var n=document.querySelector('.fa-ellipsis-h.fa');n?(clearInterval(t),n.click(),setTimeout(function(){var t=document.querySelector('.fa-eraser.fa');t&&t.click()},100)):5===++e&&clearInterval(t)},100)});
 
