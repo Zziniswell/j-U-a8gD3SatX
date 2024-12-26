@@ -1,86 +1,18 @@
 ! Title: mylist-temp
-! Version: 1.298+5
+! Version: 1.299+0
 ! Description: yas
 
 
 ! rules
-||wts-log.tossinvest.com^
-||scorecardresearch.com^
-news.zum.com###reward-root
-m.news.zum.com##.da_banner
-m.gsshop.com###productRecommend
-m.gsshop.com##.md-recommend-wrap
-m.gsshop.com##.descriptionContents > .mgh-sm.pdt-xxs
-gsshop.com##[href^="https://m.gsshop.com/shop/module/moduleShop.gs"] > .ban-img
-gall.dcinside.com##tr.ub-content:has-text(설문):has-text(운영자)
-||lklfwu-*.appsflyersdk.com^$app=viva.republica.toss
-||samqaicongen.com^
-||dcinside.com/_js/jquery/jquery.iframetracker.js
-m.happymod.com###appx
-$popup,domain=liteapks.net
-liteapks.net##.banner
-happymod.com,happymod.cloud##.appx.cbox
-pornhub.com#%#//scriptlet('set-cookie-reload', 'accessAgeDisclaimerPH', '1')
-||z0jqib-*.appsflyersdk.com^$app=com.kakao.page
-||img-ad-img-vp.daumcdn.net^
-||track.cashfriends.io^
-||bleachbubble.com^
-knowyourmeme.com##[class^='ad-']
-||mplad.ahnlab.com^
-||instagram.com/error/ig_web_error_reports/
-||js-cdn.onstove.com/libs/popup-log/*/popup-log.js
-happymod.com##.righthm.rbox
-newneek.co##img[src*='ad'][onclick]
-tvreport.co.kr##.body:style(margin-bottom:0px!important; padding-bottom:0px!important;)
-tvreport.co.kr##[class*='ad']:has(.adsbygoogle)
-@@||tvreport.co.kr^$generichide
-tvreport.co.kr#@#[class*='ad-box']
-fntoday.co.kr##.web.support-box
-m.khan.co.kr##li.ad-txt-ncover
-dailyvet.co.kr##.dv-ad-wrapper
-||alog.i-boss.co.kr^
-10x10.co.kr###lyrCateBest
-10x10.co.kr##.bnr
-10x10.co.kr##.pdtListBoxV17a.together
-m.10x10.co.kr###content > a > .vTop
-m.10x10.co.kr###related-product-list
-m.10x10.co.kr##.item-add-just1day
-m.10x10.co.kr##.onlytenbyten
-m.gamemeca.com##.wrap > .nAtop
-gamemeca.com##.content-top-add
-gamemeca.com##.ev_view_banner
-m.celuvmedia.com##.ad_frame
-m.etnews.com##.ad_300x100
 
 
 
 ! quick fixes
-biz.chosun.com#@##artwrapper
-#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
-||gcltracker.com^$all
-@@$stealth=1p-cookie,domain=naver.com|github.*|google.com|arca.live|epicgames.com|steampowered.com|deepl.com|kakao.com|daum.net|babechat.ai,badfilter
-@@||accounts.google.com^$stealth=1p-cookie
-@@||arca.live^$stealth=1p-cookie
-@@||babechat.ai^$stealth=1p-cookie
-@@||deepl.com^$stealth=1p-cookie
-@@||epicgames.com^$stealth=1p-cookie
-@@||github.com^$stealth=1p-cookie
-@@||hasha.in^$stealth=1p-cookie
-@@||kauth.kakako.com^$stealth=1p-cookie
-@@||nid.naver.com^$stealth=1p-cookie
-@@||steampowered.com^$stealth=1p-cookie
-m.celuvmedia.com#@##container > div
 
 
 
 ! experimental
 ! ##[id^='dimg']:upward(7):has-text(test)
-||namu.wiki^$cookie
-||fmkorea.com^$cookie
-||ppomppu.co.kr^$cookie
-@@$generichide,domain=11st.co.kr|namu.wiki|t.hi098123.com,badfilter
-@@||11st.co.kr^$generichide
-@@||namu.wiki^$generichide
 
 
 
