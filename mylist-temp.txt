@@ -28,14 +28,29 @@ pornhub.com#%#//scriptlet('set-cookie-reload', 'accessAgeDisclaimerPH', '1')
 knowyourmeme.com##[class^='ad-']
 ||mplad.ahnlab.com^
 ||instagram.com/error/ig_web_error_reports/
-||js-cdn.onstove.com/libs/popup-log/1.0.2/popup-log.js
+||js-cdn.onstove.com/libs/popup-log/*/popup-log.js
 happymod.com##.righthm.rbox
 newneek.co##img[src*='ad'][onclick]
-tvreport.co.kr##.tvreport-adsense-content
 tvreport.co.kr##.body:style(margin-bottom:0px!important; padding-bottom:0px!important;)
-tvreport.co.kr##.pc-post-ad-right-wrap
+tvreport.co.kr##[class*='ad']:has(.adsbygoogle)
 @@||tvreport.co.kr^$generichide
 tvreport.co.kr#@#[class*='ad-box']
+fntoday.co.kr##.web.support-box
+m.khan.co.kr##li.ad-txt-ncover
+dailyvet.co.kr##.dv-ad-wrapper
+||alog.i-boss.co.kr^
+10x10.co.kr###lyrCateBest
+10x10.co.kr##.bnr
+10x10.co.kr##.pdtListBoxV17a.together
+m.10x10.co.kr###content > a > .vTop
+m.10x10.co.kr###related-product-list
+m.10x10.co.kr##.item-add-just1day
+m.10x10.co.kr##.onlytenbyten
+m.gamemeca.com##.wrap > .nAtop
+gamemeca.com##.content-top-add
+gamemeca.com##.ev_view_banner
+m.celuvmedia.com##.ad_frame
+m.etnews.com##.ad_300x100
 
 
 
@@ -54,6 +69,7 @@ biz.chosun.com#@##artwrapper
 @@||kauth.kakako.com^$stealth=1p-cookie
 @@||nid.naver.com^$stealth=1p-cookie
 @@||steampowered.com^$stealth=1p-cookie
+m.celuvmedia.com#@##container > div
 
 
 
@@ -79,7 +95,7 @@ m.fmkorea.com##.level:style(opacity:0.2!important;)
 
 ! update regularly
 hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
-m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무|오징어|오겜|이병헌|이정재/)
-m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu|오징어|오겜|이병헌|이정재/)
+m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무|오징어|오겜|이병헌|이정재|기훈|우승/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu|오징어|오겜|이병헌|이정재|기훈|우승/)
 [$url=||m.dcinside.com/board/comic_new*?recommend=1]##.gall-detail-lst > li:not(:has-text(/번역|재업|트위터|단편|화|근황|스포|수준|작가|결말|유출|만신|쿠보|엔딩/))
-fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원|오징어|오겜|이병헌|이정재/)
+fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원|오징어|오겜|이병헌|이정재|기훈/)
