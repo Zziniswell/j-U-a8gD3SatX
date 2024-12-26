@@ -1,7 +1,6 @@
 ! Title: mylist-temp
-! Version: 1.298+4
+! Version: 1.298+5
 ! Description: yas
-
 
 
 ! rules
@@ -16,7 +15,6 @@ gsshop.com##[href^="https://m.gsshop.com/shop/module/moduleShop.gs"] > .ban-img
 gall.dcinside.com##tr.ub-content:has-text(설문):has-text(운영자)
 ||lklfwu-*.appsflyersdk.com^$app=viva.republica.toss
 ||samqaicongen.com^
-@@$stealth=1p-cookie,domain=hasha.in
 ||dcinside.com/_js/jquery/jquery.iframetracker.js
 m.happymod.com###appx
 $popup,domain=liteapks.net
@@ -26,12 +24,18 @@ pornhub.com#%#//scriptlet('set-cookie-reload', 'accessAgeDisclaimerPH', '1')
 ||z0jqib-*.appsflyersdk.com^$app=com.kakao.page
 ||img-ad-img-vp.daumcdn.net^
 ||track.cashfriends.io^
-ㅡ
 ||bleachbubble.com^
 knowyourmeme.com##[class^='ad-']
 ||mplad.ahnlab.com^
 ||instagram.com/error/ig_web_error_reports/
 ||js-cdn.onstove.com/libs/popup-log/1.0.2/popup-log.js
+happymod.com##.righthm.rbox
+newneek.co##img[src*='ad'][onclick]
+tvreport.co.kr##.tvreport-adsense-content
+tvreport.co.kr##.body:style(margin-bottom:0px!important; padding-bottom:0px!important;)
+tvreport.co.kr##.pc-post-ad-right-wrap
+@@||tvreport.co.kr^$generichide
+tvreport.co.kr#@#[class*='ad-box']
 
 
 
@@ -75,6 +79,7 @@ m.fmkorea.com##.level:style(opacity:0.2!important;)
 
 ! update regularly
 hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
-m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무/)
-m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu/)
+m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무|오징어|오겜|이병헌|이정재/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu|오징어|오겜|이병헌|이정재/)
 [$url=||m.dcinside.com/board/comic_new*?recommend=1]##.gall-detail-lst > li:not(:has-text(/번역|재업|트위터|단편|화|근황|스포|수준|작가|결말|유출|만신|쿠보|엔딩/))
+fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원|오징어|오겜|이병헌|이정재/)
