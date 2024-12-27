@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.299+1
+! Version: 1.299+2
 ! Description: yas
 
 
@@ -29,6 +29,7 @@ m.newspim.com###slideshow
 newspim.com##.kyd_dday
 newspim.com##.right-side-banner
 ohmynews.com###Banner10Man
+ohmynews.com###ctl00_dvWing > div[style]
 ohmynews.com##[class^='ad']:not(#dvComment)
 ohmynews.com#@#div[class^="ad"]
 ohmynews.com#@#main#article > .arc_list
@@ -39,6 +40,10 @@ web.joongna.com##.pb-12
 web.joongna.com##div > div div:has([src*='/ad'])
 ||fnnews.com/static/fnnews/logMo
 ||raw.githubusercontent.com/expertad^$3p
+ㅡ
+thetimes.com###paywall-portal-sale-modal
+dbpia.co.kr###bannerSliderThesisBasic
+ohmynews.com##div.mgbt10.arc_list:has([id])
 
 
 
@@ -49,11 +54,16 @@ web.joongna.com#@#.min-\[1600px\]\:max-w-\[1280px\].max-w-\[1024px\].box-content
 gezip.net#@#div:nth-of-type(5)
 section.blog.naver.com#@#.wrap_my_information > div:nth-of-type(4)
 section.blog.naver.com#@#.wrap_my_information > div:nth-of-type(5)
+ohmynews.com#@#div:not([id]):not([class]):nth-of-type(1)
 
 
 
 ! experimental
 ! ##[id^='dimg']:upward(7):has-text(test)
+||fmkorea.com^$cookie
+||namu.wiki^$cookie
+||ppomppu.co.kr^$cookie
+||ohmynews.com^$cookie
 
 
 
