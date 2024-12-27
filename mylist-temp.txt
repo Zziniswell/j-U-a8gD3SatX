@@ -1,13 +1,54 @@
 ! Title: mylist-temp
-! Version: 1.299+0
+! Version: 1.299+1
 ! Description: yas
 
 
 ! rules
+###adContext:not(:empty)
+###ad_img:not(:empty)
+###downloadAd:not(:empty)
+###topBannerAd:not(:empty)
+###topbannerad:not(:empty)
+###weatherad:not(:empty)
+##.ad-block
+##.ad-center
+##.ad-link:not(.adsbox)
+##.ad-slot:not(.adsbox):not(.adsbygoogle)
+##.ad-unit:not(.text-ad):not(.textads)
+##.ad-wrapper
+##.ad_container
+##.ads-wrapper
+##.ezoic-ad
+##.google-ad:not(.testAd)
+##.top-ad-container
+##AMP-AD
+fnnews.com##div[style]
+gezip.net##div[style*='width:300px; height:250px;']
+hasha.in##div[class][id]:has(span[color='0']:has-text(애미뒤진병신년ㅋㅋ))
+m.newspim.com###slideshow
+newspim.com##.kyd_dday
+newspim.com##.right-side-banner
+ohmynews.com###Banner10Man
+ohmynews.com##[class^='ad']:not(#dvComment)
+ohmynews.com#@#div[class^="ad"]
+ohmynews.com#@#main#article > .arc_list
+programs.sbs.co.kr##[class^='ad_']
+programs.sbs.co.kr##[src^="https://adservice.sbs.co.kr/"]
+soomgo.com##.app-download-modal
+web.joongna.com##.pb-12
+web.joongna.com##div > div div:has([src*='/ad'])
+||fnnews.com/static/fnnews/logMo
+||raw.githubusercontent.com/expertad^$3p
 
 
 
 ! quick fixes
+! web.joongna.com#@#ins.adsbygoogle[data-ad-client]
+! web.joongna.com#@#ins.adsbygoogle[data-ad-slot]
+web.joongna.com#@#.min-\[1600px\]\:max-w-\[1280px\].max-w-\[1024px\].box-content.\32 xl\:px-16.md\:px-8.px-4.mx-auto > div
+gezip.net#@#div:nth-of-type(5)
+section.blog.naver.com#@#.wrap_my_information > div:nth-of-type(4)
+section.blog.naver.com#@#.wrap_my_information > div:nth-of-type(5)
 
 
 
