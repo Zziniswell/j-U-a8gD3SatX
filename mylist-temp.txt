@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.300+0
+! Version: 1.31+0
 ! Description: yas
 
 
@@ -21,6 +21,11 @@
 ||ohmynews.com^$cookie
 $$script:has-text(adsbygoogle)
 starrykss.tistory.com,github.com$@$script:has-text(adsbygoogle)
+||wcs.naver.net/wcslog.js$script,redirect=naver-wcslog
+youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+m.youtube.com##+js(aeld, visibilitychange, /bgmobile|\{\w\.\w+\(\)\}/)
 
 
 
@@ -34,8 +39,8 @@ m.fmkorea.com##.level:style(opacity:0.2!important;)
 
 
 ! update regularly
-hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
-m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무|오징어|오겜|이병헌|이정재|기훈|우승/)
-m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu|오징어|오겜|이병헌|이정재|기훈|우승/)
 [$url=||m.dcinside.com/board/comic_new*?recommend=1]##.gall-detail-lst > li:not(:has-text(/번역|재업|트위터|단편|화|근황|스포|수준|작가|결말|유출|만신|쿠보|엔딩/))
-fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원|오징어|오겜|이병헌|이정재|기훈/)
+fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
+hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
+m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu/)
