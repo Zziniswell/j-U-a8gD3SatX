@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.31+0
+! Version: 1.32+0
 ! Description: yas
 
 
@@ -19,9 +19,6 @@
 ||namu.wiki^$cookie
 ||ppomppu.co.kr^$cookie
 ||ohmynews.com^$cookie
-$$script:has-text(adsbygoogle)
-starrykss.tistory.com,github.com$@$script:has-text(adsbygoogle)
-||wcs.naver.net/wcslog.js$script,redirect=naver-wcslog
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
 youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
