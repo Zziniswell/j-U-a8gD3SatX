@@ -1,20 +1,28 @@
 ! Title: mylist-temp
-! Version: 1.32+1
+! Version: 1.32+2
 ! Description: yas
 
 
 ! rules
-[$domain=/^t1.torrentpi\d+.com/]##li:has([href^='https://www.herbmming'])
-gelbooru.com##[class$='Ad']
-gelbooru.com##center > div[style*='width: 300px; height: 250px;']:has(script)
-$popup,domain=gelbooru.com
 ##div[style*='width: 300px; height: 250px;']
 ##div[style*='width:300px; height:250px;']
+$popup,domain=gelbooru.com
+[$domain=/^t1.torrentpi\d+.com/]##li:has([href^='https://www.herbmming'])
+a-ha.io##[class]:has-text(만족스러운 답변이었나요?):not([class]:has(p))
 forbes.com##.ampplus-connatix
 forbes.com##.inactive.video-placeholder-breaking-mobile
 forbes.com##.zephr-backdrop
 forbes.com##.zephr-generic-modal
-m.dcinside.com###notice_list > li:has-text(/제주항공 여객기 사고 관련/)
+gelbooru.com##[class*='Ad']
+gelbooru.com##center > div[style*='width: 300px; height: 250px;']:has(script)
+ㅡ
+musinsa.com#%#//scriptlet('trusted-set-cookie', 'topBanner', '{"WEBY":0,"WEBN":1,"APPY":0,"APPN":0,"APPALL":0}')
+m.ruliweb.com#%#//scriptlet('trusted-click-element', 'button.text_xlarge')
+unsafelink.com#%#//scriptlet('trusted-click-element', 'input[type="checkbox"], a.btn', '', '10')
+m.fmkorea.com#%#//scriptlet('set-cookie-reload', 'html5_video_default_muted', 'true')
+m.brand.naver.com,m.smartstore.naver.com#%#//scriptlet('set-cookie-reload', 'smartstore_popup_notice_hide_today', 'true')
+konachan.com#%#//scriptlet('trusted-click-element', '.highres-show:not(.original-file-changed)', '', '500')
+@@||konachan.com^$extension="Embed Me!"
 
 
 
@@ -25,15 +33,13 @@ m.dcinside.com###notice_list > li:has-text(/제주항공 여객기 사고 관련
 
 
 ! experimental
-! ##[id^='dimg']:upward(7):has-text(test)
-||fmkorea.com^$cookie
-||namu.wiki^$cookie
-||ppomppu.co.kr^$cookie
-||ohmynews.com^$cookie
-youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
-youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
-youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
 m.youtube.com##+js(aeld, visibilitychange, /bgmobile|\{\w\.\w+\(\)\}/)
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer, undefined)
+youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+||namu.wiki^$cookie
+||ohmynews.com^$cookie
+||ppomppu.co.kr^$cookie
 
 
 
@@ -52,3 +58,5 @@ fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1
 hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
 m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무/)
 m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu/)
+!
+m.dcinside.com###notice_list > li:has-text(/제주항공 여객기 사고 관련/)
