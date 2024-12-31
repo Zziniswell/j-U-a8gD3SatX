@@ -4,6 +4,17 @@
 
 
 ! rules
+[$domain=/^t1.torrentpi\d+.com/]##li:has([href^='https://www.herbmming'])
+gelbooru.com##[class$='Ad']
+gelbooru.com##center > div[style*='width: 300px; height: 250px;']:has(script)
+$popup,domain=gelbooru.com
+##div[style*='width: 300px; height: 250px;']
+##div[style*='width:300px; height:250px;']
+forbes.com##.ampplus-connatix
+forbes.com##.inactive.video-placeholder-breaking-mobile
+forbes.com##.zephr-backdrop
+forbes.com##.zephr-generic-modal
+m.dcinside.com###notice_list > li:has-text(/제주항공 여객기 사고 관련/)
 
 
 
