@@ -1,9 +1,10 @@
 ! Title: mylist-temp
-! Version: 1.33+0
+! Version: 1.33+1
 ! Description: yas
 
 
 ! rules
+m.dcinside.com##.detail-top-concept:has(.ntc-line-skyblue.round)
 
 
 
@@ -12,7 +13,6 @@
 ! web.joongna.com#@#ins.adsbygoogle[data-ad-slot]
 ||07c225f3.online^$badfilter
 @@$extension="Scroll to top",app=com.sec.android.app.sbrowser|com.sec.android.app.sbrowser.beta,badfilter
-paxnet.co.kr#@#.banner
 
 
 
