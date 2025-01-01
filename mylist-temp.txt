@@ -1,10 +1,11 @@
 ! Title: mylist-temp
-! Version: 1.33+1
+! Version: 1.33+1y
 ! Description: yas
 
 
 ! rules
-m.dcinside.com##.detail-top-concept:has(.ntc-line-skyblue.round)
+m.dcinside.com##.detail-top-concept:not(:has(.ntc-line-green.round))
+vhdlshxm.blogspot.com$$script:has-text('poinote')
 
 
 
@@ -13,6 +14,8 @@ m.dcinside.com##.detail-top-concept:has(.ntc-line-skyblue.round)
 ! web.joongna.com#@#ins.adsbygoogle[data-ad-slot]
 ||07c225f3.online^$badfilter
 @@$extension="Scroll to top",app=com.sec.android.app.sbrowser|com.sec.android.app.sbrowser.beta,badfilter
+m.fmkorea.com#@%#//scriptlet('set-cookie-reload', 'html5_video_default_muted', 'true')
+m.dcinside.com#@#.detail-top-concept:has(.ntc-line-skyblue.round)
 
 
 
