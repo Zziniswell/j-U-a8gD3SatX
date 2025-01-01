@@ -1,11 +1,13 @@
 ! Title: mylist-temp
-! Version: 1.33+1y
+! Version: 1.33+1z
 ! Description: yas
 
 
 ! rules
 m.dcinside.com##.detail-top-concept:not(:has(.ntc-line-green.round))
 vhdlshxm.blogspot.com$$script:has-text('poinote')
+yande.re##.js-notes-manager--image.js-notes-manager--toggle.image:style(width:180% !important; height:auto !important;)
+new-m.pay.naver.com##[class^='AdReward_list__']:style(min-height:auto !important;)
 
 
 
