@@ -1,44 +1,18 @@
 ! Title: mylist-temp
-! Version: 1.32+3
+! Version: 1.33+0
 ! Description: yas
 
 
 ! rules
-##div[style*='width: 300px; height: 250px;']
-##div[style*='width:300px; height:250px;']
-$popup,domain=gelbooru.com
-@@||konachan.com^$extension="Embed Me!"
-[$domain=/^t1.torrentpi\d+.com/]##li:has([href^='https://www.herbmming'])
-a-ha.io##[class]:has-text(만족스러운 답변이었나요?):not([class]:has(p))
-fntimes.com##[id^='pcfnad_']
-forbes.com##.ampplus-connatix
-forbes.com##.inactive.video-placeholder-breaking-mobile
-forbes.com##.zephr-backdrop
-forbes.com##.zephr-generic-modal
-gelbooru.com##[class*='Ad']
-gelbooru.com##center > div[style*='width: 300px; height: 250px;']:has(script)
-konachan.com#%#//scriptlet('trusted-click-element', '.highres-show:not(.original-file-changed)', '', '500')
-m.brand.naver.com,m.smartstore.naver.com#%#//scriptlet('set-cookie-reload', 'smartstore_popup_notice_hide_today', 'true')
-m.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
-m.fmkorea.com#%#//scriptlet('set-cookie-reload', 'html5_video_default_muted', 'true')
-m.fntimes.com##[class^='fntimes_motnsad']
-m.fntimes.com##img[style='width:100%;'][alt='issue']
-m.fntimes.com##img[width='100%']
-m.inven.co.kr##.show-ads
-m.ruliweb.com#%#//scriptlet('trusted-click-element', 'button.text_xlarge')
-musinsa.com#%#//scriptlet('trusted-set-cookie', 'topBanner', '{"WEBY":0,"WEBN":1,"APPY":0,"APPN":0,"APPALL":0}')
-unsafelink.com#%#//scriptlet('trusted-click-element', 'input[type="checkbox"], a.btn', '', '10')
-viva100.com##div.banner_box
-ygosu.com#%#(()=>{const n="loader.min.js",e={includes:String.prototype.includes},o=()=>(new Error).stack,c={construct:(c,l,t)=>{const r=o();return e.includes.call(r,n)&&l[0]&&e.includes.call(l[0],"adshield")&&(l[0]=["(function(){})();"]),Reflect.construct(c,l,t)}};window.Blob=new Proxy(window.Blob,c);const l={apply:(c,l,t)=>{const r=o();return e.includes.call(r,n)&&t[0]&&e.includes.call(t[0],"throw new Error")&&(t[0]=()=>{}),Reflect.apply(c,l,t)}};window.setTimeout=new Proxy(window.setTimeout,l)})();
 
 
 
 ! quick fixes
 ! web.joongna.com#@#ins.adsbygoogle[data-ad-client]
 ! web.joongna.com#@#ins.adsbygoogle[data-ad-slot]
-m.dcinside.com#@##notice_list > li:has-text(/이슈|설문|뉴스/)
 ||07c225f3.online^$badfilter
-inven.co.kr$$script[data-cfasync="false"]
+@@$extension="Scroll to top",app=com.sec.android.app.sbrowser|com.sec.android.app.sbrowser.beta,badfilter
+paxnet.co.kr#@#.banner
 
 
 
