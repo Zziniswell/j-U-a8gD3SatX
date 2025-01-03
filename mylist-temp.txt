@@ -1,11 +1,11 @@
 ! Title: mylist-temp
-! Version: 1.33+2
+! Version: 1.33+3
 ! Description: yas
 
 
 ! rules
 m.dcinside.com##.detail-top-concept:not(:has(.ntc-line-green.round))
-vhdlshxm.blogspot.com$$script:has-text('poinote')
+vhdlshxm.blogspot.com#%#//scriptlet('set-constant', 'prompt', 'undefined')
 konachan.com,yande.re##.js-notes-manager--image.js-notes-manager--toggle.image:style(width:170% !important; height:auto !important;)
 new-m.pay.naver.com##[class^='AdReward_list__']:style(min-height:auto !important;)
 m.dcinside.com###notice_list > li:has([href^='https://gall.dcinside.com/know/'])
@@ -14,6 +14,10 @@ dctrend.ai##ins[id^='adsby']
 biz.chosun.com##section[data-pb-fingerprint]:has([target]):not(:has(span))
 biz.newdaily.co.kr##.header-banner
 coolenjoy.net##.carousel-inner
+hiver.co.kr##.topBanner.thumbnail
+gall.dcinside.com##.list_trend
+cafe.naver.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+naver.com##+js(addEventListener-defuser, /contextmenu|selectstart|dragstart/)
 
 
 
@@ -35,6 +39,8 @@ m.youtube.com##+js(aeld, visibilitychange, /bgmobile|\{\w\.\w+\(\)\}/)
 ||namu.wiki^$cookie
 ||ohmynews.com^$cookie
 ||ppomppu.co.kr^$cookie
+! ||acs.aliexpress.com/h5/mtop.aliexpress.member.web.login.guide/1.0/
+! ||acs.aliexpress.com/h5/mtop.aliexpress.usertouch.houyi.launchrule.runtime.pull/2.0/*jsonp
 
 
 
@@ -53,4 +59,3 @@ fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1
 hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|검은 흰자|zenmai kourogi|koushouin teisetsu|kurono taitsu/)
 m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제|찐따폰|찐 따 폰|테무|테,무|테mu|틱,톡|테 무/)
 m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu/)
-!
